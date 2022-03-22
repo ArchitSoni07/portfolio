@@ -1,0 +1,94 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Heading {
+  text-align: center;
+  width: 100vw;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.headingProjects {
+  margin-top: 3vh;
+}
+
+.headingProjects > h1 {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 45px;
+  overflow: hidden;
+  margin-left: 30vw;
+}
+
+.expHeading > h1 {
+  width: 100vw;
+  font-size: 45px;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .Heading {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Heading {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Heading {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .Heading {
+    margin-left: 1vw;
+  }
+  .headingProjects > h1 {
+    font-size: 60px;
+    margin-left: 10vw;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 830px) {
+  .headingProjects > h1 {
+    margin-left: 15vw;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 541px) {
+  .Heading {
+    margin-left: 1vw;
+  }
+  .headingProjects > h1 {
+    margin-left: 1vw;
+  }
+}
+@media screen and (max-width: 415px) {
+  .Heading {
+    margin-left: 1vw;
+  }
+  .headingProjects > h1 {
+    margin-left: 1vw;
+  }
+  .expHeading {
+    margin-left: -3vw;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .Heading {
+    margin-left: 0vw;
+  }
+  .headingProjects > h1 {
+    margin-left: 1vw;
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,38 @@
+#heading {
+  width: 90vw;
+  margin-bottom: 1vh;
+  margin-left: 4vw;
+  margin-top: 3vh;
+  font-size: 35px;
+  text-decoration: underline;
+  color: rgb(240, 240, 215);
+}
+
+#desc {
+  width: 70vw;
+  word-wrap: break-word;
+}
+
+#ending {
+  width: 70vw;
+  word-wrap: break-word;
+}
+
+#list {
+  list-style-type: none;
+}
+
+.secondWrap {
+  margin-left: 4vw;
+  font-size: 25px;
+}
+
+.firstWrap {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100vw;
+}
