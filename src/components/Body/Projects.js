@@ -13,7 +13,7 @@ function Projects() {
         x:0,
         transition:{
           type:'spring',
-          duration:1.5,
+          duration:1.6,
           bounce:0.2
         }
       })
