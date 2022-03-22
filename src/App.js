@@ -1,12 +1,9 @@
 import './App.css';
 import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
 import { motion, useViewportScroll } from "framer-motion"
 import Body from './components/Body/Body'
 import React, {useState,useEffect,useRef} from 'react';
 import video from './video.mp4'
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import audio from './audio.mp3'
 
 function App() {
 
